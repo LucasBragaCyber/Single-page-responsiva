@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <title>Maverick Escola de aviação</title>
+
+    
+
+</head>
+<body>
+
+<header>    <!--Parte do Menu-->
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div>
+                <button class="btn-sm negrito" onclick="darkMode()">Darkmode</button>
+            </div>
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-navbar" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+        
+            
+
+
+                <a class="navbar-brand" href="#">Maverick Escola de aviação</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="collapse-navbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="#sobre-nos">Sobre Nós</a></li>
+                    <li><a href="#nossas-aeronaves">Nossas Aeronaves</a></li>
+                    <li><a href="#cursos">Cursos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#login">Login</a></li>
+                    <li><a href="#cadastro">Cadastro</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container MEA-bannerWrapper">
+        <div class="MEA-banner">
+            <h1>Maverick Escola de aviação</h1>
+            <p>Formando pilotos com o melhor treinamento, aeronaves e tecnologia desde 1995</p>
+            <a href="#contato" class="btn btn-primary btn-lg">Contate-nos agora</a>
+        </div>
+    </div>
+
+</header>   <!--Parte do Menu-->
+
+    <section id="sobre-nos" class="container">
+        <h2>Sobre Nós</h2>
+        <div class="row">
+            <img class="img-responsive col-sm-6" src="img/helicopteros/BELL407-cp.jpg">
+
+            <div class="panel-group col-sm-6" id="paineis-sobre">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title" data-toggle="collapse" data-target="#primeiro-paragrafo" data-parent="#paineis-sobre">Desde 1995</h3>
+                    </div>
+                    <div id="primeiro-paragrafo" class="collapse in">
+                        <div class="panel-body">
+                            <p class="negrito">A Maverick Escola de Aviação forma pilotos para todas as areas desde 1995</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title" data-toggle="collapse" data-target="#segundo-paragrafo" data-parent="#paineis-sobre">Preços Acessiveis</h3>
+                    </div>
+
+                    <div id="segundo-paragrafo" class="collapse">
+                        <div class="panel-body">
+                            <p class="negrito">Cursos teóricos a partir de R$1000,00.</p>
+                            <p class="negrito">Horas de vôo a partir de R$450,00 para aviões e R$850,00 para helicópteros</p>
+                        </div>
+                    </div>
+                </div>
+                    
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title" data-toggle="collapse" data-target="#terceiro-paragrafo" data-parent="#paineis-sobre">Alegria em formar
+                        pilotos</h3>
+                    </div>
+
+                    <div id="terceiro-paragrafo" class="collapse">
+                        <div class="panel-body">
+                            <p class="negrito">Aeronaves modernas para voar desde a primeira hora de vôo tanto para VFR quanto para IFR.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="nossas-aeronaves" class="container">
+    <h2>Nossas Aeronaves</h2>
+
+    <div class="row">
+        <div class="col-sm-6 col-md-4 col-lg-3">
+            <figure class="thumbnail">
+                <img src="img/helicopteros/r22-aeronave.jpg" alt="Foto do R-22">
+                <figcaption class="caption">
+                    <h3>R-22</h3>
+                    <p>O R-22 pode ser uma ótima aeronave para aqueles que estão querendo um bom custo benefício em suas primeiras horas de voo</p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3">
+            <figure class="thumbnail">
+                <img src="img/helicopteros/r44-aeronave.jpg" alt="Foto do R-44">
+                <figcaption class="caption">
+                    <h3>R-44</h3>
+                    <p>O R-44 é uma excelente aeronave para aqueles que desejam mais tecnologia e conforto em seu início nas horas de vôo. Possui tecnologia para IFR</p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3">
+            <figure class="thumbnail">
+                <img src="img/avioes/cessna152-aeronave.jpg" alt="Foto do Cessna-152">
+                <figcaption class="caption">
+                    <h3>Cessna 152</h3>
+                    <p>O Cessa 152 é uma ótima escolha para todos que desejam começar numa boa aeronave com um excelente custo benefício para vôos VFR.</p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="col-sm-6 col-md-6 col-lg-3">
+            <figure class="thumbnail">
+                <img src="img/avioes/aero-boero115.jpg" alt="Foto do Aero Boero 115">
+                <figcaption class="caption">
+                    <h3>Boero 115</h3>
+                    <p>O Boero 115 é a aeronave de maior custo benefício para as aulas práticas, sendo sempre uma boa escolha para iniciantes.</p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="col-sm-6 col-md-6 col-lg-3">
+            <figure class="thumbnail">
+                <img src="img/helicopteros/bell407-aeronave.jpg" alt="Foto do Bell 407">
+                <figcaption class="caption">
+                    <h3>Bell 407</h3>
+                    <p>O Bell 407 é um helicóptero civil monomotor fabricado pela estadunidense Bell Helicopter, equipado com tecnologia para vôos VFR e IFR.</p>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+</section>
+
+
+<section id="cursos">
+    <div class="titulo-cursos">
+        <h2 class="container titulo-cursos">Nossos Cursos</h2>
+    </div>
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators, bullets -->
+        <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+    
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <figure class="item active">
+                <img src="img/avioes/cockpit1.jpg">
+                <figcaption class="carousel-caption">
+                    <h3>Cursos Piloto privado e comercial para aviões</h3>
+                    <p>Aulas com pilotos e instrutores renomados.</p>
+                </figcaption>
+            </figure>
+            <figure class="item">
+                <img src="img/helicopteros/cockpit2BELL.jpg">
+                <figcaption class="carousel-caption">
+                    <h3>Cursos Piloto privado e comercial para Asas Rotativas</h3>
+                    <p class="negrito">Aeronaves para vôos VFR e IFR.</p>
+                </figcaption>
+            </figure>
+            <figure class="item">
+                <img src="img/avioes/comissario.jpg">
+                <figcaption class="carousel-caption">
+                    <h3>Cursos para Comissários de Vôo</h3>
+                    <p>Simulados e materiais inclusos para iniciar seus estudos com mais praticidade.</p>
+                </figcaption>
+            </figure>
+        </div>
+    
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+        </a>
+    </div>
+</section>
+
+<section id="contato" class="container">
+    <h2>Contato</h2>
+    <h4>Entre em contato conosco</h4>
+
+    <form>
+        <div class="form-group">
+            <label for="contato-name">Nome:</label>
+            <input class="form-control" id="contato-name" type="text" placeholder="Seu Nome">
+        </div>
+
+        <div class="form-group">
+            <label for="contato-email">Email</label>
+            <div class="input-group">
+                <div class="input-group-addon">@</div>
+                <input type="email" class="form-control" id="contato-email" placeholder="Seu E-mail">
+            </div>
+        </div>
+
+        <div class="grupo-radio">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="tipo-pessoa" checked>
+                    Pessoa Física
+                </label>
+            </div>
+
+            <div class="radio">
+                <label>
+                    <input type="radio" name="tipo-pessoa">
+                    Pessoa Jurídica
+                </label>
+            </div>
+        </div><!--
+            
+        --><select class="contato-select form-control">
+            <option disabled selected>Tipo de curso</option>
+            <option>Helicóptero</option>
+            <option>Avião</option>
+            <option>Comissário</option>
+        </select>
+
+        <button class="btn btn-primary" type="submit">Enviar</button>
+
+    </form>
+
+</section>
+
+<footer>
+    <address>
+        <strong>Maverick Escola de Aviação</strong><br>
+        Rua Imaculada Conceição, 1155 Prado Velho<br>
+        Curitiba - PR<br>
+        CEP 80215-901<br>
+        Tel.: (41) 91024-2048
+    </address>
+    
+    <address>
+        E-mail: contato.meaviacao@outlook.com
+    </address>
+</footer>
+
+
+    <script src="Jquery.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/navbar-animation-fix.js"></script>
+    <script src="darkMode.js"></script>
+
+</body>
+</html>
